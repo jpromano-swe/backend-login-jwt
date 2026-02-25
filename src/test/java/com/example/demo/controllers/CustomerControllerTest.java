@@ -2,7 +2,6 @@ package com.example.demo.controllers;
 
 import com.example.demo.controller.CustomerController;
 import com.example.demo.dto.CustomerDto;
-import com.example.demo.model.Customer;
 import com.example.demo.services.CustomerService;
 import com.example.demo.services.JwtService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -14,7 +13,6 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
-import java.util.List;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
